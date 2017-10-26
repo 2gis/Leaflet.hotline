@@ -1,3 +1,8 @@
+/*!
+ * (c) 2015, iosphere GmbH
+ *  Leaflet.hotline, a Leaflet plugin for drawing gradients along polylines.
+ *  https://github.com/iosphere/Leaflet.hotline/
+ */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -81,6 +86,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+/*
+ (c) 2015, iosphere GmbH
+ Leaflet.hotline, a Leaflet plugin for drawing gradients along polylines.
+ https://github.com/iosphere/Leaflet.hotline/
+ */
 
 L.Util.Gradienter = __webpack_require__(1);
 
