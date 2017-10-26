@@ -34,12 +34,11 @@
     "2gis-maps": "^3.3.5",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-preset-es2015-webpack": "^6.4.3",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^0.23.0",
     "html-webpack-plugin": "^2.30.1",
     "mocha": "^4.0.1",
     "raw-loader": "^0.5.1",
-    "uglify-js": "^2.4.23",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.3",
     "webpack-livereload-plugin": "^1.0.0"

@@ -38,7 +38,8 @@ function getConfig() {
                         use: [{
                             loader: 'babel-loader',
                             options: {
-                                presets: ['es2015']
+                                babelrc: false,
+                                presets: [['env']]
                             }
                         }]
                     },
@@ -74,7 +75,8 @@ function getConfig() {
                         use: [{
                             loader: 'babel-loader',
                             options: {
-                                presets: ['es2015']
+                                babelrc: false,
+                                presets: [['env']]
                             }
                         }]
                     }
