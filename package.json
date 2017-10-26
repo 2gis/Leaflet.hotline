@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "WEBPACK_ENV=dev webpack-dev-server",
     "build": "webpack",
-    "test": "mocha --compilers js:babel-core/register --recursive test",
+    "test": "mocha --recursive test",
     "lint": "eslint src/*.js"
   },
   "repository": {
@@ -32,9 +32,6 @@
   "homepage": "https://iosphere.github.io/Leaflet.hotline/demo/",
   "devDependencies": {
     "2gis-maps": "^3.3.5",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
     "eslint": "^0.23.0",
     "html-webpack-plugin": "^2.30.1",
     "mocha": "^4.0.1",

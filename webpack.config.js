@@ -34,16 +34,6 @@ function getConfig() {
             module: {
                 rules: [
                     {
-                        test: /\.js$/,
-                        use: [{
-                            loader: 'babel-loader',
-                            options: {
-                                babelrc: false,
-                                presets: [['env']]
-                            }
-                        }]
-                    },
-                    {
                         test: /\.css$/,
                         use: ['raw-loader']
                     }
@@ -67,21 +57,7 @@ function getConfig() {
                     include: /\.min\.js$/
                 }),
                 new webpack.BannerPlugin('(c) 2015, iosphere GmbH\n Leaflet.hotline, a Leaflet plugin for drawing gradients along polylines.\n https://github.com/iosphere/Leaflet.hotline/')
-            ],
-            module: {
-                rules: [
-                    {
-                        test: /\.js$/,
-                        use: [{
-                            loader: 'babel-loader',
-                            options: {
-                                babelrc: false,
-                                presets: [['env']]
-                            }
-                        }]
-                    }
-                ]
-            }
+            ]
         }
     }
 }
